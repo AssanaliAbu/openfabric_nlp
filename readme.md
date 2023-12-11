@@ -6,6 +6,23 @@ Welcome to the Cognitive Assistant application, an AI-driven chatbot focusing on
 
 Cognitive Assistant is designed to handle complex science-related queries using NLP techniques. It is structured with various components that work together to process and respond to user inputs.
 
+### Wikipedia Integration
+
+The application leverages the Wikipedia-API to fetch relevant information as context for the NLP model. This allows the chatbot to provide informed and accurate answers to user queries based on up-to-date Wikipedia content.
+
+#### How it Works
+
+- When a query is received, the application first searches Wikipedia for relevant articles or information.
+- The Wikipedia-API is used to fetch extracts or summaries of these articles.
+- This content is then passed as context to the NLP model, which processes the information to generate a response.
+
+#### Configuration and Usage
+
+- The Wikipedia-API integration is configured in the `nlp.py` file.
+- Users can modify the search parameters or the method of fetching data from Wikipedia as needed.
+- The application is set up to handle requests in English, but this can be configured for other languages supported by Wikipedia.
+
+
 ## Key Components
 
 - `main.py`: Core application logic, including the request processing function.
