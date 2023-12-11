@@ -33,6 +33,8 @@ The application leverages the Wikipedia-API to fetch relevant information as con
     "What is the theory of relativity?"
   ]
 }
+```
+```json
 {
   "text": [
     "Space–time structure from a dynamical perspective"
