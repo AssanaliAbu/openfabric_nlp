@@ -23,7 +23,7 @@ The application leverages the Wikipedia-API to fetch relevant information as con
 - The application is set up to handle requests in English, but this can be configured for other languages supported by Wikipedia.
 
 
-#### Example
+### Example
 
 **Query:**
 
