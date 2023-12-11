@@ -34,6 +34,9 @@ The application leverages the Wikipedia-API to fetch relevant information as con
   ]
 }
 ```
+
+**Response:**
+
 ```json
 {
   "text": [
