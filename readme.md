@@ -27,19 +27,19 @@ Navigate to the directory containing the `Dockerfile`, then build the image:
 
 ```bash
 docker build -t cognitive-assistant .
-
+```
 ### Run the Docker Container
 After the image is built, run the container by mapping the container's port 5500 to the host's port 5500:
 
 ```bash
 docker run -p 5500:5500 cognitive-assistant
-
+```
 The application should now be running and ready to process requests.
 
-### Interacting with the Application
+## Interacting with the Application
 Once the container is up, the application will be listening for requests. Interaction with the application will depend on how the request and response handling is implemented in main.py.
 
-### Model and Processing
+## Model and Processing
 The application leverages the deepset/tinyroberta-squad2 model from the Hugging Face transformers library for question answering. The implementation details are in nlp.py, and the request processing logic is in the execute function of main.py.
 
 
